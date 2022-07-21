@@ -16,7 +16,7 @@ This is a Open Source Community Website in which you can get Well arranged cours
 ## 📍Acknowledgements
 
  - [📌Visit our website](https://codechamp.netlify.app/)
- - [📌Join CodeChamp](https://discord.gg/URmG5DR6)
+ - [📌Join CodeChamp](https://discord.com/invite/Pp5xg74nKH)
 
 
 ## 📍Contributing
