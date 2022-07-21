@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans:wght@500&family=Oswald:wght@500&family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/** navbar styling starts**/
+.logo{
+    margin-left: 12vw;
+
+}
+
+.nav-ul{
+    margin:auto; 
+}
+
+.nav-ul > li> a{
+    margin-left: 40px;
+}
+
+.hamburger{
+    border-color: #FD7014;
+}
+
+.active{
+    color: #FD7014 !important;
+}
+/**navbar styling ends**/
+
+/**first container area styling starts**/
+.container{
+    display: flex;
+    margin-top: 5vh;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.discription{
+    width: 600px;
+}
+
+.heading{
+    font-family: 'Oswald', sans-serif;
+}
+
+.content{
+    font-family: 'Fira Sans', sans-serif;
+    color: #696969;
+    line-height: 25px;
+
+}
+
+.common-button{
+    padding: 10px 35px;
+    border-radius: 30px;
+    background-color: #FD7014;
+    color: white;
+    border: none;
+    transition: all 0.3s linear;
+}
+
+.common-button:hover{
+    background-color: transparent;
+    color: #FD7014;
+    box-shadow: 0 0.5px 1px rgb(92, 92, 92) ;
+}
+
+.intro-image{
+    max-width: 100%;
+    min-height: 40vh;
+    vertical-align: middle;
+    justify-content: right;
+}
+/**first container area styling ends**/
+
+hr{
+    background-color:#FD7014;
+    width: 100px;
+    opticity:1;
+    border: none;
+    height: 2px;
+    margin: auto;
+}
+
+.rec-button{
+    margin-left: 30px;
+}
+
+.event{
+    box-shadow: 0 1px 2px rgb(65, 64, 64);
+    border-radius: 15px;
+}
+
+.event:hover{
+    box-shadow: 0 0px 10px rgb(250, 135, 4);
+}
+
+.team-image{
+    border-radius: 50%;
+    max-width: 70%;
+    margin: 20px 40px;
+    border: #FD7014;
+    border-style: solid;
+}
+
+.team-members{
+    overflow-y: scroll;
+    position: absolute;
+    overflow-x: hidden;
+    width: 80%;
+    left: 10%;
+    overflow: scroll;
+    height: 500px;
+    white-space: nowrap;
+    margin-left: 18px;
+}
