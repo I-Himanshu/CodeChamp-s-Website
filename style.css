@@ -108,13 +108,9 @@ hr{
 }
 
 .team-members{
-    overflow-y: scroll;
-    position: absolute;
-    overflow-x: hidden;
-    width: 80%;
-    left: 10%;
-    overflow: scroll;
     height: 500px;
-    white-space: nowrap;
-    margin-left: 18px;
+    width: 80vw;
+    text-align: center;
+    overflow: hidden;
+    margin: auto;
 }
