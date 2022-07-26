@@ -108,9 +108,25 @@ hr{
 }
 
 .team-members{
-    height: 500px;
-    width: 80vw;
+    height: 400px;
+    width: 98vw;
+    background-color: #d3d3d3;
     text-align: center;
     overflow: hidden;
     margin: auto;
+    border: none !important;
+}
+
+
+.WeOffers ul{
+    list-style-type:disc;
+    line-height: 60px !important;
+}
+
+.WeOffers > ul > li{
+    margin-left: 10%;
+}
+
+.Intrested{
+    margin-left: 25%;
 }
