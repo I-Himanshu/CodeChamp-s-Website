@@ -99,6 +99,31 @@ hr{
     box-shadow: 0 0px 10px rgb(250, 135, 4);
 }
 
+/**Joinus container styling starts**/
+
+.joinus-anchor{
+    margin-left: 5%;
+    margin-top: 5vh;
+}
+
+.joinus-cards > a{
+    text-decoration: none;
+}
+
+.joinus-icons{
+    display: inline-block;
+    margin: 5% 25%;
+    font-size: 8rem;
+    color:#696969;
+}
+
+.joinus-cards h3{
+    color: #FD7014;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+/**Joinus Styling ends**/
+
 .team-image{
     border-radius: 50%;
     max-width: 70%;
