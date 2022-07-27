@@ -155,3 +155,21 @@ hr{
 .Intrested{
     margin-left: 25%;
 }
+
+.feedback-section{
+    height: 400px;
+    width: 70vw;
+    background-color: #d3d3d3;
+    text-align: center;
+    overflow: hidden;
+    margin: auto;
+
+}
+
+.feedback-image{
+    border-radius: 50%;
+    max-width: 50%;
+    margin: 20px 40px;
+    border: #FD7014;
+    border-style: solid;   
+}
