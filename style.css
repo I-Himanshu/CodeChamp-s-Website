@@ -112,15 +112,27 @@ hr{
 
 .joinus-icons{
     display: inline-block;
-    margin: 5% 25%;
-    font-size: 8rem;
+    margin: 5% 40%;
+    font-size: 4rem;
     color:#696969;
+}
+
+.joinus-card{
+    border-radius: 20px !important;
 }
 
 .joinus-cards h3{
     color: #FD7014;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
+}
+
+.joinus-cards > a:hover{
+    box-shadow: 0 0px 6px rgb(250, 135, 4);
+}
+
+.joinus-cards > a:hover .joinus-icons{
+    color: #FD7014;
 }
 /**Joinus Styling ends**/
 
@@ -133,7 +145,7 @@ hr{
 }
 
 .team-members{
-    height: 400px;
+    height: 500px;
     width: 98vw;
     background-color: #d3d3d3;
     text-align: center;
@@ -157,8 +169,8 @@ hr{
 }
 
 .feedback-section{
-    height: 400px;
-    width: 70vw;
+    height: 450px;
+    width: 80vw;
     background-color: #d3d3d3;
     text-align: center;
     overflow: hidden;
@@ -173,3 +185,24 @@ hr{
     border: #FD7014;
     border-style: solid;   
 }
+
+.faq:hover{
+    box-shadow: 0 0px 3px rgb(250, 135, 4);
+}
+
+@media screen and (max-width: 600px) {
+    .WhyToJoin {
+      flex-wrap: nowrap;
+      justify-content: flex-start !important;
+    }
+
+    .WhyToJoin > .image > .intro-image{
+        display: inline-block;
+    }
+
+    .mobile-view > li{
+        font-size: xx-small;
+        line-height: 10px;
+        margin-top: 18px;
+    }
+  }
