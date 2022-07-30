@@ -97,6 +97,7 @@ hr{
 
 .event:hover{
     box-shadow: 0 0px 10px rgb(250, 135, 4);
+    transition: all 0.3s linear;
 }
 
 /**Joinus container styling starts**/
@@ -129,6 +130,7 @@ hr{
 
 .joinus-cards > a:hover{
     box-shadow: 0 0px 6px rgb(250, 135, 4);
+    transition: all 0.3s linear;
 }
 
 .joinus-cards > a:hover .joinus-icons{
@@ -145,7 +147,7 @@ hr{
 }
 
 .team-members{
-    height: 500px;
+    height: 430px;
     width: 98vw;
     background-color: #d3d3d3;
     text-align: center;
@@ -169,25 +171,53 @@ hr{
 }
 
 .feedback-section{
-    height: 450px;
-    width: 80vw;
-    background-color: #d3d3d3;
-    text-align: center;
-    overflow: hidden;
-    margin: auto;
+    margin: 0px 20%;
+}
 
+.feedbacks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    margin:auto;
+}
+
+.feedbacks > .card{
+    margin-top: 5vh;
 }
 
 .feedback-image{
     border-radius: 50%;
     max-width: 50%;
-    margin: 20px 40px;
+    margin: 20px 25%;
     border: #FD7014;
     border-style: solid;   
 }
 
+.faq-button{
+    background-color: #ffba8c;
+}
+
 .faq:hover{
     box-shadow: 0 0px 3px rgb(250, 135, 4);
+}
+
+form{
+    margin-left: 10px;
+    padding: 10px;
+
+}
+
+.form-container{
+    background-color: aqua;
+    border-radius: 10px;
+    width: 30vw;
+    height: fit-content;
+    margin: 10px;
+}
+
+.form-row > .col > input{
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 600px) {
@@ -197,12 +227,17 @@ hr{
     }
 
     .WhyToJoin > .image > .intro-image{
-        display: inline-block;
+        display: none;
     }
 
     .mobile-view > li{
-        font-size: xx-small;
-        line-height: 10px;
+        font-size:small;
+        line-height: 15px;
         margin-top: 18px;
+    }
+
+    .accordion{
+        width: 90% !important;
+        margin-left: 15px !important;
     }
   }
