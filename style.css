@@ -170,14 +170,10 @@ hr{
     margin-left: 25%;
 }
 
-.feedback-section{
-    margin: 0px 20%;
-}
-
 .feedbacks{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row;
     margin:auto;
 }
@@ -203,21 +199,24 @@ hr{
 }
 
 form{
-    margin-left: 10px;
     padding: 10px;
-
 }
 
 .form-container{
-    background-color: aqua;
-    border-radius: 10px;
-    width: 30vw;
-    height: fit-content;
-    margin: 10px;
+    width: 600px;
+    height: auto;
+    padding: 10px;
+    background-image: url(./images/mail\ gif.gif);
+    background-size: cover;
+    border-radius: 15px;
 }
 
 .form-row > .col > input{
     margin-top: 20px;
+}
+
+.contact-us-image{
+    max-width: 45%;
 }
 
 @media screen and (max-width: 600px) {
@@ -238,6 +237,11 @@ form{
 
     .accordion{
         width: 90% !important;
-        margin-left: 15px !important;
+        margin:auto;
+    }
+
+    .contact-us-image{
+        max-width: 100%;
+        margin-top: 20px;
     }
   }
