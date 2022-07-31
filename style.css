@@ -18,7 +18,7 @@
 }
 
 .nav-ul > li> a{
-    margin-left: 40px;
+    margin-left: 30px;
 }
 
 .hamburger{
@@ -219,6 +219,45 @@ form{
     max-width: 45%;
 }
 
+footer{
+    background-color: black;
+}
+
+.footer-content{
+    color: white;
+}
+
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+
+.about{
+    max-width: 30%;
+}
+
+.quick-links > li , .contact-details > li{
+    list-style-type: none;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 30px;
+}
+
+.text{
+    color: #b3b3b3;
+}
+
+.quick-links > li > a{
+    text-decoration: none;
+    color: #b3b3b3;
+}
+
+.quick-links > li > a:hover{
+    color: #FD7014;
+}
+
 @media screen and (max-width: 600px) {
     .WhyToJoin {
       flex-wrap: nowrap;
@@ -243,5 +282,9 @@ form{
     .contact-us-image{
         max-width: 100%;
         margin-top: 20px;
+    }
+
+    .about{
+        max-width: 80%;
     }
   }
