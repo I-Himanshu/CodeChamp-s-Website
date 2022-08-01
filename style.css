@@ -211,7 +211,7 @@ form{
     border-radius: 15px;
 }
 
-.form-row > .col > input{
+.form-container> form > input{
     margin-top: 20px;
 }
 
