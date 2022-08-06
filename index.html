@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>CodeChamp | Home</title>
+        <title>CodeChamp</title>
         <link rel="icon" type="image/png" href="./images/logo.png">
         <!--bootstrap Css-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -15,7 +15,7 @@
     </head>
     <body>
         <!--navbar starts-->
-        <nav class="navbar navbar-expand-lg" >
+        <nav class="navbar navbar-expand-lg sticky-top bg-white">
             <div class="container-fluid">
                 <a class="navbar-brand ml-0 logo" href="#"><img src="./images/logo.png" style="height: 40px; width:80px; filter:brightness(120%)"></a>
                 <!--hamburger button for mobile view starts-->
@@ -26,25 +26,25 @@
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-ul">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#fifth">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Events</a>
+                            <a class="nav-link" href="#second">Events</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Team</a>
+                            <a class="nav-link" href="#fourth">Team</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Opportunities</a>
+                            <a class="nav-link" href="#sixth">Opportunities</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Feedbacks</a>
+                            <a class="nav-link" href="#feedback">Feedbacks</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="#tenth">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -52,7 +52,7 @@
         </nav>
         <!--navbar ends-->
         <!--First intro container starts-->
-        <div class="container">
+        <div class="container" id="first">
             <div class="discription">
                 <h2 class="heading">CodeChamp</h2>
                 <p class="content">CodeChamp Community is the Community of Coding Enthusiasts,
@@ -74,7 +74,7 @@
         </div>
         <!--First intro container ends-->
         <!--Events section starts-->
-        <div class="events mt-6">
+        <div class="events mt-6" id="second">
             <h1 class="heading text-center">
                 Our Events
             </h1>
@@ -109,7 +109,7 @@
         <!--Events section ends-->
         <br/>
         <br/>
-        <div class="joinus mt-6">
+        <div class="joinus mt-6" id="third">
             <h1 class="heading text-center">
                 Be a Part of Us
             </h1>
@@ -170,7 +170,7 @@
 
         <!--Members info starts-->
 
-        <div class="mt-6">
+        <div class="mt-6" id="fourth">
             <h1 class="heading text-center">
                 Our Team Members
             </h1>
@@ -262,7 +262,7 @@
 
     </br>
         <!--what we offer starts-->
-        <div class="WeOffers">
+        <div class="WeOffers" id="fifth">
             <h1 class="heading text-center">
                 Why to Join Us?
             </h1>
@@ -289,7 +289,7 @@
         <br/>
         <!--Opportunities section starts-->
 
-        <div class="events mt-6">
+        <div class="events mt-6" id="sixth">
             <h1 class="heading text-center">
                 Opportunities
             </h1>
@@ -322,7 +322,7 @@
     <br/>
     <br/>
     <!--Feedback section starts-->
-    <div class="feedback-section">
+    <div class="feedback-section" id="seventh">
         <h1 class="heading text-center">
             Our Beloved Members Feedbacks
         </h1>
@@ -331,7 +331,7 @@
        <br/>
 
 
-       <div class=" feedbacks ">
+       <div class=" feedbacks" id="feedback">
         <div class="card " style="width: 19rem; border-radius: 15px; padding: 10px;">
           <img class="card-img-top feedback-image" src="./images/Ayush kumar image.jpg" alt="Card image cap">
           <div class="card-body">
@@ -352,7 +352,7 @@
     <br/>
     <br/>
     <!--collaborations starts-->
-    <div class="collaboration">
+    <div class="collaboration" id="eighth">
         <h1 class="heading text-center">
             Our Collaborations
         </h1>
@@ -373,7 +373,7 @@
     <br/>
     <br/>
     <!--FAQ starts-->
-    <div class="FAQ">
+    <div class="FAQ" id="ninth">
         <h1 class="heading text-center">
             FAQs
         </h1>
@@ -425,7 +425,7 @@
     <br/>
 
     <!--Contact us starts-->
-    <div class="contact-us">
+    <div class="contact-us" id="tenth">
         <h1 class="heading text-center">
             Contact-Us
         </h1>
