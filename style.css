@@ -128,7 +128,7 @@ hr{
     font-weight: 900;
 }
 
-.joinus-cards > a:hover{
+.joinus-card:hover{
     box-shadow: 0 0px 6px rgb(250, 135, 4);
     transition: all 0.3s linear;
 }
