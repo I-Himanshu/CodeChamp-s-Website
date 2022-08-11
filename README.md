@@ -29,7 +29,7 @@ Contributions are always welcome😃 !
 
 <img src="./images/opportunities page.png" alt="Sublime's custom image" />
 
-<img src="./images/contact us.png" alt="Sublime's custom image"/>
+<img src="./images/Contact us page.png" alt="Sublime's custom image"/>
 
 <h1 align="center"> PROJECT MAINTAINER 😇</h1>
 <p align="center">
