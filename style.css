@@ -221,6 +221,7 @@ form{
 
 footer{
     background-color: black;
+    bottom: 0;
 }
 
 .footer-content{
@@ -256,6 +257,16 @@ footer{
 
 .quick-links > li > a:hover{
     color: #FD7014;
+}
+
+.copyright-content{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.copyright-content > p > a{
+    color: #FD7014;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 600px) {
