@@ -25,11 +25,11 @@ Contributions are always welcome😃 !
 
 ## 📍Screenshots
 
-<img src="./images/Home page ss.png" alt="Sublime's custom image" />
+<img src="./images/Home page.png" alt="Sublime's custom image" />
 
-<img src="./images/courses ss.png" alt="Sublime's custom image" />
+<img src="./images/opportunities page.png" alt="Sublime's custom image" />
 
-<img src="./images/join us page ss.png" alt="Sublime's custom image"/>
+<img src="./images/contact us.png" alt="Sublime's custom image"/>
 
 <h1 align="center"> PROJECT MAINTAINER 😇</h1>
 <p align="center">
