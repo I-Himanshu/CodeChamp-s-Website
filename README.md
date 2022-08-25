@@ -33,7 +33,7 @@ Contributions are always welcome😃 !
 
 <h1 align="center"> PROJECT MAINTAINER 😇</h1>
 <p align="center">
-  <img src="./images/Ashish yellow bg.jpeg" alt="Sublime's custom image" width="200px"/>
+  <img src="./images/ashish bw.jpeg" alt="Sublime's custom image" width="200px"/>
 </p>
 
 ## 📍CONTACTS
