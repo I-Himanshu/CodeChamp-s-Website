@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans:wght@500&family=Oswald:wght@500&family=Roboto:wght@300;400;700&display=swap");
+
+.back-button {
+  text-decoration: none;
+  color: rgb(151, 151, 151);
+}
+
+/**card styling starts **/
+.internships-card {
+  margin-top: 5vh;
+}
+
+.company-name {
+  color: rgb(105, 103, 103);
+}
+
+.common-button {
+  margin-left: 18%;
+}
+/** Card styling ends **/
