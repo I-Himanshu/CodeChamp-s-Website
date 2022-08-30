@@ -78,7 +78,7 @@
 hr {
   background-color: #fd7014;
   width: 100px;
-  opticity: 1;
+  opacity: 1;
   border: none;
   height: 2px;
   margin: auto;
@@ -299,4 +299,84 @@ footer {
   .about {
     max-width: 80%;
   }
+}
+.arrange{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .icon{
+  position: relative;
+  border-radius: 50%;
+  padding: 25px;
+  margin: 15px;
+  width: 10px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row ;
+  cursor: pointer;
+}
+
+.wrapper .icon i{
+  color: #fff;
+  transition: .4s linear;
+}
+
+.wrapper .icon::before,
+.wrapper .icon::after{
+  content: "";
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  transition: .4s linear;
+}
+
+.wrapper .icon:hover::before{
+  border-radius: 50%;
+  border-left: 4px solid;
+  border-right: 4px solid;
+  transform: skewX(20deg);
+  color: #fff;
+}
+
+
+.wrapper .icon:hover::after{
+  border-radius: 50%;
+  border-left: 4px solid;
+  border-right: 4px solid;
+  transform: skewY(-20deg);
+  color: #fff;
+}
+
+.wrapper .tooltip{
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+  opacity: 0;
+  /* pointer-events: none; */
+  transition: all 0.3s cubic-bezier(0.68, -0.55,0.265,1.55);
+}
+
+.wrapper .icon:hover .tooltip{
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  /* pointer-events: auto;     */
 }
