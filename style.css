@@ -1,383 +1,302 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans:wght@500&family=Oswald:wght@500&family=Roboto:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans:wght@500&family=Oswald:wght@500&family=Roboto:wght@300;400;700&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 /** navbar styling starts**/
-.logo{
-    margin-left: 12vw;
-
+.logo {
+  margin-left: 12vw;
 }
 
-.nav-ul{
-    margin:auto; 
+.nav-ul {
+  margin: auto;
 }
 
-.nav-ul > li> a{
-    margin-left: 30px;
+.nav-ul > li > a {
+  margin-left: 30px;
 }
 
-.hamburger{
-    border-color: #FD7014;
+.hamburger {
+  border-color: #fd7014;
 }
 
-.active{
-    color: #FD7014 !important;
+.active {
+  color: #fd7014 !important;
 }
 /**navbar styling ends**/
 
 /**first container area styling starts**/
-.container{
-    display: flex;
-    margin-top: 5vh;
-    justify-content: space-around;
-    flex-direction: row;
-    flex-wrap: wrap;
+.container {
+  display: flex;
+  margin-top: 5vh;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.discription{
-    width: 600px;
+.discription {
+  width: 600px;
 }
 
-.heading{
-    font-family: 'Oswald', sans-serif;
+.heading {
+  font-family: "Oswald", sans-serif;
 }
 
-.content{
-    font-family: 'Fira Sans', sans-serif;
-    color: #696969;
-    line-height: 25px;
-
+.content {
+  font-family: "Fira Sans", sans-serif;
+  color: #696969;
+  line-height: 25px;
 }
 
-.common-button{
-    padding: 10px 35px;
-    border-radius: 30px;
-    background-color: #FD7014;
-    color: white;
-    border: none;
-    transition: all 0.3s linear;
+.common-button {
+  padding: 10px 35px;
+  border-radius: 30px;
+  background-color: #fd7014;
+  color: white;
+  border: none;
+  transition: all 0.3s linear;
 }
 
-.common-button:hover{
-    background-color: transparent;
-    color: #FD7014;
-    box-shadow: 0 0.5px 1px rgb(92, 92, 92) ;
+.common-button:hover {
+  background-color: transparent;
+  color: #fd7014;
+  box-shadow: 0 0.5px 1px rgb(92, 92, 92);
 }
 
-.intro-image{
-    max-width: 100%;
-    min-height: 40vh;
-    vertical-align: middle;
-    justify-content: right;
+.intro-image {
+  max-width: 100%;
+  min-height: 40vh;
+  vertical-align: middle;
+  justify-content: right;
 }
 /**first container area styling ends**/
 
-hr{
-    background-color:#FD7014;
-    width: 100px;
-    opacity:1;
-    border: none;
-    height: 2px;
-    margin: auto;
+hr {
+  background-color: #fd7014;
+  width: 100px;
+  opticity: 1;
+  border: none;
+  height: 2px;
+  margin: auto;
 }
 
-.rec-button{
-    margin-left: 30px;
+.rec-button {
+  margin-left: 30px;
 }
 
-.event{
-    box-shadow: 0 1px 2px rgb(65, 64, 64);
-    border-radius: 15px;
+.event {
+  box-shadow: 0 1px 2px rgb(65, 64, 64);
+  border-radius: 15px;
 }
 
-.event:hover{
-    box-shadow: 0 0px 10px rgb(250, 135, 4);
-    transition: all 0.3s linear;
+.event:hover {
+  box-shadow: 0 0px 10px rgb(250, 135, 4);
+  transition: all 0.3s linear;
 }
 
 /**Joinus container styling starts**/
 
-.joinus-anchor{
-    margin-left: 5%;
-    margin-top: 5vh;
+.joinus-anchor {
+  margin-left: 5%;
+  margin-top: 5vh;
 }
 
-.joinus-cards > a{
-    text-decoration: none;
+.joinus-cards > a {
+  text-decoration: none;
 }
 
-.joinus-icons{
-    display: inline-block;
-    margin: 5% 40%;
-    font-size: 4rem;
-    color:#696969;
+.joinus-icons {
+  display: inline-block;
+  margin: 5% 40%;
+  font-size: 4rem;
+  color: #696969;
 }
 
-.joinus-card{
-    border-radius: 20px !important;
+.joinus-card,
+.internships-card {
+  border-radius: 20px !important;
 }
 
-.joinus-cards h3{
-    color: #FD7014;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 900;
+.joinus-cards,
+.internships-cards h3 {
+  color: #fd7014;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
 }
 
-.joinus-card:hover{
-    box-shadow: 0 0px 6px rgb(250, 135, 4);
-    transition: all 0.3s linear;
-    transform: scale(1.05);
+.joinus-card,
+.internships-card:hover {
+  box-shadow: 0 0px 6px rgb(250, 135, 4);
+  transition: all 0.3s linear;
+  transform: scale(1.05);
 }
 
-.joinus-cards > a:hover .joinus-icons{
-    color: #FD7014;
+.joinus-cards > a:hover .joinus-icons {
+  color: #fd7014;
 }
 /**Joinus Styling ends**/
 
-.team-image{
-    border-radius: 50%;
-    max-width: 70%;
-    margin: 20px 40px;
-    border: #FD7014;
-    border-style: solid;
+.team-image {
+  border-radius: 50%;
+  max-width: 70%;
+  margin: 20px 40px;
+  border: #fd7014;
+  border-style: solid;
 }
 
-.team-members{
-    height: 430px;
-    width: 98vw;
-    background-color: #d3d3d3;
-    text-align: center;
-    overflow: hidden;
-    margin: auto;
-    border: none !important;
+.team-members {
+  height: 430px;
+  width: 98vw;
+  background-color: #d3d3d3;
+  text-align: center;
+  overflow: hidden;
+  margin: auto;
+  border: none !important;
 }
 
-
-.WeOffers ul{
-    list-style-type:disc;
-    line-height: 60px !important;
+.WeOffers ul {
+  list-style-type: disc;
+  line-height: 60px !important;
 }
 
-.WeOffers > ul > li{
-    margin-left: 10%;
+.WeOffers > ul > li {
+  margin-left: 10%;
 }
 
-.Intrested{
-    margin-left: 25%;
+.Intrested {
+  margin-left: 25%;
 }
 
-.feedbacks{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex-direction: row;
-    margin:auto;
+.feedbacks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: auto;
 }
 
-.feedbacks > .card{
-    margin-top: 5vh;
+.feedbacks > .card {
+  margin-top: 5vh;
 }
 
-.feedback-image{
-    border-radius: 50%;
-    max-width: 50%;
-    margin: 20px 25%;
-    border: #FD7014;
-    border-style: solid;   
+.feedback-image {
+  border-radius: 50%;
+  max-width: 50%;
+  margin: 20px 25%;
+  border: #fd7014;
+  border-style: solid;
 }
 
-.faq-button{
-    background-color: #ffba8c;
+.faq-button {
+  background-color: #ffba8c;
 }
 
-.faq:hover{
-    box-shadow: 0 0px 3px rgb(250, 135, 4);
+.faq:hover {
+  box-shadow: 0 0px 3px rgb(250, 135, 4);
 }
 
-form{
-    padding: 10px;
+form {
+  padding: 10px;
 }
 
-.form-container{
-    width: 600px;
-    height: auto;
-    padding: 10px;
-    background-image: url(./images/mail\ gif.gif);
-    background-size: cover;
-    border-radius: 15px;
+.form-container {
+  width: 600px;
+  height: auto;
+  padding: 10px;
+  background-image: url(./images/mail\ gif.gif);
+  background-size: cover;
+  border-radius: 15px;
 }
 
-.form-container> form > input{
-    margin-top: 20px;
+.form-container > form > input {
+  margin-top: 20px;
 }
 
-.contact-us-image{
-    max-width: 45%;
+.contact-us-image {
+  max-width: 45%;
 }
 
-footer{
-    background-color: black;
-    bottom: 0;
+footer {
+  background-color: black;
+  bottom: 0;
 }
 
-.footer-content{
-    color: white;
+.footer-content {
+  color: white;
 }
 
-.main-content{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
-    
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
 }
 
-.about{
-    max-width: 30%;
+.about {
+  max-width: 30%;
 }
 
-.quick-links > li , .contact-details > li{
-    list-style-type: none;
-    font-family: 'Fira Sans', sans-serif;
-    line-height: 30px;
+.quick-links > li,
+.contact-details > li {
+  list-style-type: none;
+  font-family: "Fira Sans", sans-serif;
+  line-height: 30px;
 }
 
-.text{
-    color: #b3b3b3;
+.text {
+  color: #b3b3b3;
 }
 
-.quick-links > li > a{
-    text-decoration: none;
-    color: #b3b3b3;
+.quick-links > li > a {
+  text-decoration: none;
+  color: #b3b3b3;
 }
 
-.quick-links > li > a:hover{
-    color: #FD7014;
+.quick-links > li > a:hover {
+  color: #fd7014;
 }
 
-.copyright-content{
-    margin-top: 50px;
-    text-align: center;
+.copyright-content {
+  margin-top: 50px;
+  text-align: center;
 }
 
-.copyright-content > p > a{
-    color: #FD7014;
-    text-decoration: none;
+.copyright-content > p > a {
+  color: #fd7014;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 600px) {
-    .WhyToJoin {
-      flex-wrap: nowrap;
-      justify-content: flex-start !important;
-    }
-
-    .WhyToJoin > .image > .intro-image{
-        display: none;
-    }
-
-    .mobile-view > li{
-        font-size:small;
-        line-height: 15px;
-        margin-top: 18px;
-    }
-
-    .accordion{
-        width: 90% !important;
-        margin:auto;
-    }
-
-    .contact-us-image{
-        max-width: 100%;
-        margin-top: 20px;
-    }
-
-    .about{
-        max-width: 80%;
-    }
+  .WhyToJoin {
+    flex-wrap: nowrap;
+    justify-content: flex-start !important;
   }
 
-  .arrange{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .WhyToJoin > .image > .intro-image {
+    display: none;
   }
 
-  .wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .mobile-view > li {
+    font-size: small;
+    line-height: 15px;
+    margin-top: 18px;
   }
 
-  .wrapper .icon{
-    position: relative;
-    border-radius: 50%;
-    padding: 25px;
-    margin: 15px;
-    width: 10px;
-    height: 50px;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row ;
-    cursor: pointer;
+  .accordion {
+    width: 90% !important;
+    margin: auto;
   }
 
-  .wrapper .icon i{
-    color: #fff;
-    transition: .4s linear;
+  .contact-us-image {
+    max-width: 100%;
+    margin-top: 20px;
   }
 
-  .wrapper .icon::before,
-  .wrapper .icon::after{
-    content: "";
-    position: absolute;
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    transition: .4s linear;
+  .about {
+    max-width: 80%;
   }
-
-.wrapper .icon:hover::before{
-    border-radius: 50%;
-    border-left: 4px solid;
-    border-right: 4px solid;
-    transform: skewX(20deg);
-    color: #fff;
-  }
-
-
-.wrapper .icon:hover::after{
-    border-radius: 50%;
-    border-left: 4px solid;
-    border-right: 4px solid;
-    transform: skewY(-20deg);
-    color: #fff;
-  }
-
-  .wrapper .tooltip{
-    position: absolute;
-    top: 0;
-    font-size: 14px;
-    color: #fff;
-    padding: 5px 8px;
-    border-radius: 5px;
-    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
-    opacity: 0;
-    /* pointer-events: none; */
-    transition: all 0.3s cubic-bezier(0.68, -0.55,0.265,1.55);
-  }
-
-  .wrapper .icon:hover .tooltip{
-    top: -45px;
-    opacity: 1;
-    visibility: visible;
-    /* pointer-events: auto;     */
 }
