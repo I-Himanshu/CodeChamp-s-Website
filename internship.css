@@ -18,3 +18,21 @@
   margin-left: 18%;
 }
 /** Card styling ends **/
+.discord{
+  padding: 20px;
+}
+
+.discord > .discord-link{
+  text-decoration: none;
+  background-color: rgb(227, 227, 227);
+  color: #fd7014;
+  border-radius: 20px;
+  padding: 12px;
+}
+
+.discord-link:hover {
+  background-color: transparent;
+  color: #fd7014;
+  background-color: aliceblue;
+  box-shadow: 0 0.5px 1px rgb(92, 92, 92);
+}
