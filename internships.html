@@ -33,113 +33,165 @@
 
 <body>
     <!--navbar starts-->
-     <nav class="navbar navbar-expand-lg sticky-top bg-white">
-         <div class="container-fluid">
-            <a class="back-button" href="./index.html" style="margin-left: 3%;">
-                <i class="bi bi-arrow-left">back</i></a>
-             <a class="navbar-brand ml-0 logo" href="./index.html"><img src="./images/logo.png" style="height: 40px; 
-                width:80px; filter:brightness(120%)"></a>
-
-             </div>
-         </div>
-     </nav>
-<!--navbar ends-->
+    <nav class="navbar navbar-expand-lg sticky-top bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand ml-0 logo" href="#"><img src="./images/logo.png" style="height: 40px; width:80px; filter:brightness(120%)"></a>
+            <!--hamburger button for mobile view starts-->
+            <button class="navbar-toggler hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--hamburger button for mobile view ends-->
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-ul">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Opportunities</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" style="color: red;" href="#">Interships / Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Feedbacks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--navbar ends-->
 
     <div class="container internships-cards">
 
-        <div class="card internships-card" style="width: 30rem;" target="_blank">
+        <div class="card internships-card" style="width: 50rem;" target="_blank">
             <div class="card-body">
                 <h3 class="card-title" style="color:rgb(95, 95, 218);">Software Engineer</h3>
                 <h5 class="company-name">Goldman Sachs</h5>
-                <i class="bi bi-geo"> Bangalore</i>
-              <p class="card-text content"> Goldman Sachs is an equal employment/affirmative action employer Female/Minority/Disability/Veteran/Sexual Orientation/Gender Identity
+                <span class="type-container"><i class="bi bi-calendar2-week"></i><span class="type">  Full Time</span></span>
+                <span class="location-container"><i class="bi bi-geo"></i><span class="location"> Bangalore</span></span>
+              
+                <h5 class="about">About</h5>
+              <p class="card-text content"> Goldman Sachs is an equal employment/affirmative action employer Female/Minority/Disability/Veteran/Sexual Orientation/Gender Identity. You'll be part of a team with members from a wide range of academic and professional backgrounds, such as law, accounting, sales, and trading. We look for those who possess sound judgment, curiosity, and are able to adapt to a changing regulatory landscape.
             </p>
             <a href="https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/104961/" class="btn btn-primary rec-button common-button" target="_blank">APPLY NOW</a>
             </div>
         </div>
 
-        <div class="card internships-card" style="width: 30rem;" target="_blank">
+        <div class="card internships-card" style="width: 50rem;" target="_blank">
             <div class="card-body">
                 <h3 class="card-title" style="color:rgb(95, 95, 218);">UI/UX Intern</h3>
                 <h5 class="company-name">Upstox</h5>
-                <i class="bi bi-geo"> Bangalore/Mumbai</i>
-              <p class="card-text content">Hiring creative and passionate individuals who are looking for 3 to 6 months of internship opportunities in the FinTech domain.</p>
+                <span class="type-container"><i class="bi bi-calendar2-week"></i><span class="type">  Internship</span></span>
+                <span class="location-container"><i class="bi bi-geo"></i><span class="location"> Bangalore/Mumbai</span></span>
+            
+                <h5 class="about">About</h5>
+              <p class="card-text content">We are hiring creative and passionate individuals who are looking for 3 to 6 months of internship opportunities in the FinTech domain. You will be working alongside seasoned designers, researchers, copywriters, product managers, engineering leaders, and other stakeholders on solving complex problems. </p>
             <a href="https://jobs.lever.co/upstox/4a6255e6-f820-4ff6-8b0d-f1fa46d63df2" class="btn btn-primary rec-button common-button" target="_blank">APPLY NOW</a>
             </div>
         </div>
 
-        <div class="card internships-card" style="width: 30rem;" target="_blank">
+        <div class="card internships-card" style="width: 50rem;" target="_blank">
             <div class="card-body">
                 <h3 class="card-title"  style="color:rgb(95, 95, 218);">Frontend Developer</h3>
                 <h5 class="company-name">CodersBrain</h5>
-                <i class="bi bi-geo"> Remote</i>
-              <p class="card-text content">Coders Brain is a global leader in it services, digital and 
-                 business solutions that partners with its clients to simplify, strengthen and transform their businesses.  </p>
+                <span class="type-container"><i class="bi bi-calendar2-week"></i><span class="type">  Full Time</span></span>
+                <span class="location-container"><i class="bi bi-geo"></i><span class="location"> Remote</span></span>
+
+                <h5 class="about">About</h5>
+              <p class="card-text content"> Looking for a mid-tier frontend developer to join our growing team of developers. Day-to-day tasks will involve a mixture of support level tasks and new feature development, as you learn the system and become more comfortable you will find new feature development will make up the bulk of your work (opposed to working heavily with support/legacy code).</p>
             <a href=" https://www.linkedin.com/jobs/view/3163390461" class="btn btn-primary rec-button common-button" target="_blank">APPLY NOW</a>
             </div>
         </div>
 
-        <div class="card internships-card" style="width: 30rem;" target="_blank">
+        <div class="card internships-card" style="width: 50rem;" target="_blank">
             <div class="card-body">
                 <h3 class="card-title" style="color:rgb(95, 95, 218);">Summer Analyst</h3>
                 <h5 class="company-name">Google</h5>
-                <i class="bi bi-geo">Bangalore/Mumbai</i>
-              <p class="card-text content">Summer Analysts join for 2 months in May of each year. Summer 
-                Analysts are placed into a specific development or infrastructure team </p>
+                <span class="type-container"><i class="bi bi-calendar2-week"></i><span class="type">  Internship</span></span>
+                <span class="location-container"><i class="bi bi-geo"></i><span class="location"> Bangalore/ Mumbai</span></span>
+
+                <h5 class="about">About</h5>
+              <p class="card-text content">Summer Analysts join for 2 months in May of each year. You will work on software development projects to keep important business-critical systems up and running, from code-level troubleshooting of traffic anomalies to maintenance of our services; from monitoring and alerts to building automation infrastructure.  </p>
               <a href="https://careers.google.com/jobs/results/80503484702433990/" class="btn btn-primary 
                  rec-button common-button" target="_blank" >APPLY NOW</a>
             </div>
         </div>
 
-        <div class="card internships-card" style="width: 30rem;" target="_blank">
+        <div class="card internships-card" style="width: 50rem;" target="_blank">
             <div class="card-body">
                 <h3 class="card-title" style="color:rgb(95, 95, 218);">Software Development Intern</h3>
                 <h5 class="company-name">Asteria Aerospace</h5>
-                <i class="bi bi-geo"> Bangalore</i>
-              <p class="card-text content">Seeking an intern for the development and testing of desktop/mobile software applications for drone command and control. </p>
+                <span class="type-container"><i class="bi bi-calendar2-week"></i><span class="type"> Internship</span></span>
+                <span class="location-container"><i class="bi bi-geo"></i><span class="location"> Bangalore</span></span>
+
+                <h5 class="about">About</h5>
+              <p class="card-text content">Seeking an intern for the development and testing of desktop/mobile software applications for drone command and control.Write C++ programs for various applications like drone navigation, video processing, telemetry display , data logging. Perform unit tests and system integration tests on developed software and proof-of-concepts.
+             </p>
             <a href="https://asteria.kekahire.com/jobdetails/27367" class="btn btn-primary rec-button 
             common-button" target="_blank" >APPLY NOW</a>
             </div>
         </div>
 
-        <div class="card internships-card" style="width: 30rem;" target="_blank">
+        <div class="card internships-card" style="width: 50rem;" target="_blank">
             <div class="card-body">
                 <h3 class="card-title" style="color:rgb(95, 95, 218);">Research Intern</h3>
                 <h5 class="company-name">Microsoft</h5>
-                <i class="bi bi-geo">Bangalore</i>
-              <p class="card-text content">During the internship, students are paired with mentors and 
-                  expected to collaborate with other interns, present findings, and contribute to the vibrant 
-                  life of the community. </p>
+                <span class="type-container"><i class="bi bi-calendar2-week"></i><span class="type"> Internship</span></span>
+                <span class="location-container"><i class="bi bi-geo"></i><span class="location"> Bangalore</span></span>
+
+                <h5 class="about">About</h5>
+              <p class="card-text content">During the internship, students are paired with mentors and expected to collaborate with other interns and researchers, present findings, and contribute to the vibrant life of the community. MSR India conducts research in a wide range of areas and Internships are available in all of them.  </p>
               <a href="https://careers.microsoft.com/us/en/job/931311/Research-Intern" class="btn 
               btn-primary rec-button common-button" target="_blank" >APPLY NOW</a>
             </div>
         </div>       
 
-        <div class="card internships-card" style="width: 30rem;" target="_blank">
+        <div class="card internships-card" style="width: 50rem;" target="_blank">
             <div class="card-body">
                 <h3 class="card-title" style="color:rgb(95, 95, 218);">React Developer</h3>
                 <h5 class="company-name">Turing.com</h5>
-                <i class="bi bi-geo"> Remote</i>
-              <p class="card-text content">The developer will be responsible for building scalable applications and integrating them with APIs.The company is NASDAQ-listed and has raised over $1bn in revenue. </p>
+                <span class="type-container"><i class="bi bi-calendar2-week"></i><span class="type">Full Time</span></span>
+                <span class="location-container"><i class="bi bi-geo"></i><span class="location"> Remote</span></span>
+
+                <h5 class="about">About</h5>
+              <p class="card-text content">The developer will be responsible for building scalable applications and integrating them with APIs.The company is NASDAQ-listed and has raised over $1bn in revenue.Analyze, design, and develop tests and test-automation suites. Design and develop a processing platform using various configuration management technologies </p>
               <a href="https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3220035835" class="btn btn-primary rec-button common-button" target="_blank" >APPLY NOW</a>
             </div>
         </div>
 
-        <div class="card internships-card" style="width: 30rem;" target="_blank">
+        <div class="card internships-card" style="width: 50rem;" target="_blank">
             <div class="card-body">
                 <h3 class="card-title" style="color:rgb(95, 95, 218);">Problem Setter - Fullstack</h3>
                 <h5 class="company-name">HackerEarth</h5>
-                <i class="bi bi-geo"> Partially Remote</i>
+                <span class="type-container"><i class="bi bi-calendar2-week"></i><span class="type"> Internship</span></span>
+                <span class="location-container"><i class="bi bi-geo"></i><span class="location"> Partially Remote</span></span>
+
+                <h5 class="about">About</h5>
               <p class="card-text content">hackerearth is an AI-powered, developer assessment software that helps in measuring a developer’s skills accurately through online coding tests. </p>
             <a href="https://hackerearthjobs.hire.trakstar.com/jobs/fk0so6k" class="btn btn-primary rec-button common-button" target="_blank" >APPLY NOW</a>
             </div>
         </div>
 
-        <div class="card internships-card" style="width: 30rem;" target="_blank">
+        <div class="card internships-card" style="width: 50rem;" target="_blank">
             <div class="card-body">
                 <h3 class="card-title" style="color:rgb(95, 95, 218);">Summer Analyst</h3>
                 <h5 class="company-name">Morgan Stanley</h5>
-                <i class="bi bi-geo">Bangalore/Mumbai</i>
+                <span class="type-container"><i class="bi bi-calendar2-week"></i><span class="type"> Internship</span></span>
+                <span class="location-container"><i class="bi bi-geo"></i><span class="location"> Bangalore/ Mumbai</span></span>
+
+                <h5 class="about">About</h5>
               <p class="card-text content">Summer Analysts join for 2 months in May of each year. Summer Analysts are placed into a specific development or infrastructure team. </p>
               <a href="https://morganstanley.tal.net/vx/mobile-0/brand-0/candidate/so/pm/1/pl/1/opp/
                  13399-2023-Technology-Summer-Analyst-Program-Mumbai-Bangalore/en-GB" class="btn btn-primary 
@@ -147,54 +199,71 @@
             </div>
         </div>
 
-        <div class="card internships-card" style="width: 30rem;" target="_blank">
+        <div class="card internships-card" style="width: 50rem;" target="_blank">
             <div class="card-body">
                 <h3 class="card-title" style="color:rgb(95, 95, 218);">System Engineer Intern</h3>
                 <h5 class="company-name">Infosys</h5>
-                <i class="bi bi-geo">Not Specified</i>
+                <span class="type-container"><i class="bi bi-calendar2-week"></i><span class="type"> Internship</span></span>
+                <span class="location-container"><i class="bi bi-geo"></i><span class="location"> Not Specified</span></span>
+
+                <h5 class="about">About</h5>
               <p class="card-text content">Infosys is providing internship opportunity as system engineer Intern </p>
               <a href="https://careers.infosys.com/instep/internship/instepregistrationpage.aspx" class="btn btn-primary rec-button common-button" target="_blank" >APPLY NOW</a>
             </div>
         </div>
 
-        <div class="card internships-card" style="width: 30rem;" target="_blank">
+        <div class="card internships-card" style="width: 50rem;" target="_blank">
             <div class="card-body">
                 <h3 class="card-title" style="color:rgb(95, 95, 218);">Front-End Developer</h3>
                 <h5 class="company-name">AyeTap</h5>
-                <i class="bi bi-geo">Remote</i>
-              <p class="card-text content">looking for someone passionate about creating intuitive web pages. Someone who wants to be part of a newly born startup that is going to change the world </p>
+                <span class="type-container"><i class="bi bi-calendar2-week"></i><span class="type"> Internship</span></span>
+                <span class="location-container"><i class="bi bi-geo"></i><span class="location"> Remote</span></span>
+
+                <h5 class="about">About</h5>
+              <p class="card-text content">Looking for someone passionate about creating intuitive web pages. Someone who wants to be part of a newly born startup that is going to change the world and is passionate about building efficient, aesthetically pleasing, and modern web experiences.  </p>
               <a href="https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3251269810&start=24" class="btn btn-primary rec-button common-button" target="_blank" >APPLY NOW</a>
             </div>
         </div>
 
-        <div class="card internships-card" style="width: 30rem;" target="_blank">
+        <div class="card internships-card" style="width: 50rem;" target="_blank">
             <div class="card-body">
                 <h3 class="card-title" style="color:rgb(95, 95, 218);">Software Engineer</h3>
                 <h5 class="company-name">Cisco</h5>
-                <i class="bi bi-geo">Bangalore</i>
-              <p class="card-text content">Develop software and tools in support of design, infrastructure and technology platforms, including operating systems, compilers, routers, networks, utilities, database...... </p>
+                <span class="type-container"><i class="bi bi-calendar2-week"></i><span class="type"> Full Time</span></span>
+                <span class="location-container"><i class="bi bi-geo"></i><span class="location"> Bangalore</span></span>
+
+                <h5 class="about">About</h5>
+              <p class="card-text content">Design, develop, troubleshoot and debug software programs for enhancements and new products.
+                Develop software and tools in support of design, infrastructure and technology platforms, including operating systems, compilers, routers, networks, utilities, databases and Internet-related tools.</p>
               <a href="https://jobs.cisco.com/jobs/ProjectDetail/Software-Engineer-Network-Embedded-Application-Development-New-Grad-India-UHR/1374582" class="btn 
               btn-primary rec-button common-button" target="_blank" >APPLY NOW</a>
             </div>
         </div>
 
-        <div class="card internships-card" style="width: 30rem;" target="_blank">
+        <div class="card internships-card" style="width: 50rem;" target="_blank">
             <div class="card-body">
                 <h3 class="card-title" style="color:rgb(95, 95, 218);">Student Technical Intern</h3>
                 <h5 class="company-name">Unisys</h5>
-                <i class="bi bi-geo">Bangalore</i>
-              <p class="card-text content">Unisys is a global information technology company that builds high-performance, security-centric solutions that can help change the world.</p>
+                <span class="type-container"><i class="bi bi-calendar2-week"></i><span class="type"> Internship</span></span>
+                <span class="location-container"><i class="bi bi-geo"></i><span class="location"> Bangalore</span></span>
+
+                <h5 class="about">About</h5>
+              <p class="card-text content">Enhancing people’s lives through secure, reliable advanced technology Unisys is a global information technology company that builds high-performance, security-centric solutions for the most demanding businesses and governments on Earth. </p>
               <a href="https://jobs.unisys.com/us/en/job/REQ539492/Student-Technical-Intern" class="btn 
               btn-primary rec-button common-button" target="_blank" >APPLY NOW</a>
             </div>
         </div>
 
-        <div class="card internships-card" style="width: 30rem;" target="_blank">
+        <div class="card internships-card" style="width: 50rem;" target="_blank">
             <div class="card-body">
                 <h3 class="card-title" style="color:rgb(95, 95, 218);">Software Engineer II (UX)</h3>
                 <h5 class="company-name">Microsoft</h5>
-                <i class="bi bi-geo">Hyderabad</i>
-              <p class="card-text content">Want to build experiences which are seen my millions of users everyday. Ever wondered how to build customer-facing systems that are high-throughput.....</p>
+                <span class="type-container"><i class="bi bi-calendar2-week"></i><span class="type"> Full Time</span></span>
+                <span class="location-container"><i class="bi bi-geo"></i><span class="location"> Hyderabad</span></span>
+
+                <h5 class="about">About</h5>
+              <p class="card-text content">You will work with engineers across different parts of the organization to make their services more reliable and performant. Apart from learning through technical challenges on our team, you will get to contribute to complex systems that power some of the biggest online services for search, maps, and advertising on the planet.
+            </p>
               <a href="https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3203329858" class="btn 
               btn-primary rec-button common-button" target="_blank" >APPLY NOW</a>
             </div>
@@ -205,7 +274,7 @@
 
     <br>
     <div class="discord mt-6 text-center">
-        <p>For more, check out <span style="color: blue;">#internship</span> channnel on our Discord Server.</p>
+        <p style="color: white;">For more, check out <span style="color: blue;">#internship</span> channnel on our Discord Server.</p>
     <a href="https://discord.gg/Pp5xg74nKH" class="discord-link" target="_blank"><i class="bi bi-discord" style="color:#5865F2;"></i> Discord Channel</a>
     </div>
 
